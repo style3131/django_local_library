@@ -216,7 +216,7 @@ class AuthorListView(LoginRequiredMixin, generic.ListView):
     # 不定義這個 template_name 的話，Django 就會去預設路徑找 .html
     # 預設的路徑是 :/locallibrary/catalog/templates/catalog/author_list.html
     # 不過目前暫時程式碼設定路徑的方式跟預設一樣就好
-    template_name = 'locallilbrary/catalog/templates/catalog/author_list.html'
+    template_name = 'locallibrary/catalog/templates/catalog/author_list.html'
 
     # get_context_data() 是用來建立自訂的 Server side variable 的
     # 跟 .Net MVC 也挺像的
